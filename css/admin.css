@@ -1,0 +1,128 @@
+/* 
+penulis :Asril murdian Tahir
+nim     :2001010110
+ */
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .clearfix{
+    float: none;
+    clear: both;
+ }
+ .wrapper{
+    /* border: 1px black solid; */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+ }
+ .menu{
+    border-bottom: 1px solid gray;
+ }
+ .text-center{
+    text-align: center;
+ }
+ /* menu */
+ .menu ul{
+    list-style-type: none;
+ }
+
+ .menu ul li{
+    display: inline;
+    padding: 1%;
+ }
+ .menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #706cc6;
+ }
+ .menu ul li a:hover{
+    color: #6d69b4;
+ }
+ .main-content{
+    background-color: #f1f2f6;
+    /* margin: 1% 0; */
+    padding: 3% 0;
+ }
+ .col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+ }
+.tbl-full{
+   width: 100%;
+}
+table tr th{
+   padding: 2%;
+   border-bottom: 2px solid black;
+   text-align: left;
+}
+table tr td{
+   padding: 1%;
+}
+.btn-primary{
+   background-color: rgb(21, 65, 210);
+   padding: 1%;
+   border-radius: 5px;
+   color: white;
+   font-style: bold;
+   text-decoration: none;
+}
+.btn-secondary{
+   background-color: #47eb76;
+   padding: 2%;
+   text-align: center;
+   /* margin: 2px; */
+   margin-right: 2px;
+   font-size: 10px;
+   color: white;
+   border-radius: 5px;
+   text-decoration: none;
+}
+.btn-third{
+   background-color: #477beb;
+   padding: 2%;
+   text-align: center;
+   /* margin: 2px; */
+   font-size: 10px;
+   color: white;
+   border-radius: 5px;
+   text-decoration: none;
+}
+.btn-danger{
+   background-color: #eb7a83;
+   padding: 2%;
+   text-align: center;
+   margin: 2px;
+   font-size: 10px;
+   color: white;
+   border-radius: 5px;
+   text-decoration: none;
+}
+.success{
+   color: #47eb76;
+}
+.error{
+   color: #ff4757;
+}
+
+/* tabel tabel */
+.tbl-30{
+   width: 30%;
+}
+.tbl-50{
+   width: 50%;
+}
+ /* footer */
+ .footer{
+    background-color: #706cc6;
+    color: white;
+ }
+ .tbl-style{
+   padding: 5px;
+ }
+
